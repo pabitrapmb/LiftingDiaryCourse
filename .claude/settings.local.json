@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(cd \"D:\\\\work_dsi_D\\\\RND\\\\liftingdiarycourse\" && npm i drizzle-orm @neondatabase/serverless dotenv && npm i -D drizzle-kit tsx)"
+    ]
+  }
+}
