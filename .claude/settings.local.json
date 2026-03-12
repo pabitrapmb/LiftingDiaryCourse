@@ -2,7 +2,23 @@
   "permissions": {
     "allow": [
       "Bash(npm install:*)",
-      "Bash(cd \"D:\\\\work_dsi_D\\\\RND\\\\liftingdiarycourse\" && npm i drizzle-orm @neondatabase/serverless dotenv && npm i -D drizzle-kit tsx)"
+      "Bash(cd \"D:\\\\work_dsi_D\\\\RND\\\\liftingdiarycourse\" && npm i drizzle-orm @neondatabase/serverless dotenv && npm i -D drizzle-kit tsx)",
+      "Bash(find D:/work_dsi_D/RND/liftingdiarycourse -maxdepth 3 -type f \\\\\\( -name \"*.tsx\" -o -name \"*.ts\" -o -name \".env*\" \\\\\\) ! -path \"*/node_modules/*\" ! -path \"*/.next/*\" 2>/dev/null | sort)",
+      "mcp__neon__list_projects",
+      "mcp__neon__get_database_tables",
+      "mcp__neon__describe_table_schema",
+      "mcp__neon__run_sql_transaction",
+      "mcp__neon__run_sql",
+      "Bash(git config:*)",
+      "Bash(git push:*)",
+      "Bash(git fetch:*)",
+      "Bash(cd D:/work_dsi_D/RND/liftingdiarycourse && npx shadcn@latest add calendar popover card --yes 2>&1)",
+      "Bash(cd D:/work_dsi_D/RND/liftingdiarycourse && npm list date-fns 2>&1 | head -5)",
+      "Bash(cd D:/work_dsi_D/RND/liftingdiarycourse && npm run build 2>&1 | tail -20)"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "neon"
+  ]
 }
